@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="icon" type="image/x-con" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jason Parker</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link"
+          >JP.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Jason Parker.</span></h1>
+        <h2 class="about__role">A Full Stack Software Engineer</h2>
+        <p class="about__desc">
+          I am a software developer experienced in full-stack web development. I have a passion for building and learning new technologies, and learning about complex systems. I have a background in finance and learned that fast tools and clean UIs can make your work more enjoyable.
+        </p>
+
+        <div class="about__contact center">
+          <a href="mailto:jasonkk.parker@gmail.com">
+            <span class="btn btn--outline">I need a website</span>
+          </a>
+          <a href="mailto:jasonkk.parker@gmail.com">
+            <span class="btn btn--outline">I need a Dev</span>
+          </a>
+
+          <a
+            href="https://github.com/jparrker"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/jsonparker/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Hair Salon Layout from wireframe</h3>
+            <p class="project__description">
+              Mobile responsive front end for a hair salon custom coded from provided designer wireframe. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS3</li>
+              </ul>
+
+            <a
+              href="https://github.com/jparrker/HairSalonLayout"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/HairSalonLayout/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Level Grounds MMA Gym</h3>
+            
+            <p class="project__description">
+              HTML and CSS layout for non-profit gym. Mobile responive and clean design.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS3</li>
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/Level-Ground"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/Level-Ground/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Marketing firm layout</h3>
+            <p class="project__description">
+              Mobile responsive, custom, HTML and CSS, for a marketing firm coded from designer wireframe.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/marketingSiteLayout"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/marketingSiteLayout/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Mobile responive clone of apple.com</h3>
+            <p class="project__description">
+              Using grid, and flexbox, created a mobile responive replication of apple.com. 
+              Point of the excercise was to practice with modern corporate layout and typography.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+            
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/apple_layout"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/apple_layout/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Newsweek Homepage layout</h3>
+            <p class="project__description">
+              Mobile responsive clone of Newseeks layout. Focus of this project was quickly implementing a site with Bootstrap.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              <li class="project__stack-item">Bootstrap</li>
+              
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/newsweekClone"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/newsweekClone/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Mobile resonsive layout for a resturant.</h3>
+            <p class="project__description">
+              Coded layout from provided wireframe using grid and flexbox.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/CuisineResaturantLayout"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/CuisineResaturantLayout/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>AirBnB homepage demo</h3>
+            <p class="project__description">
+              Mobile responsive clone of airBnb.com created with Bootstrap.
+              Focus of this project was implementing modern looking forms and cards.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              <li class="project__stack-item">Bootstrap</li>
+              
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/airbnbLayout"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/airbnbLayout/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>AirBnB News project</h3>
+            <p class="project__description">
+              Mobile responsive clone of AirBnB news site.
+              Focus of this project was implementing a modern design quickly with a library. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              <li class="project__stack-item">Bootstrap</li>
+              
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/airbnb-news"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/airbnb-news/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>StarTrek Field Guide to Aliens</h3>
+            <p class="project__description">
+              Created an API with node and mongoDB which allows user to search for an alien, and DOM is updated with a the results.
+              Front end is LCARS template by Jim Robertus.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML3</li>
+              <li class="project__stack-item">CSS3</li>
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">Node</li>
+              <li class="project__stack-item">MongoDB</li>
+
+              
+              
+            </ul>
+
+            <a
+              href="https://github.com/jparrker/starTrek_api"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://jparrker.github.io/starTrekFrontEnd/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+
+        </div>       <!--    Project Grid -->
+        
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Javscript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Node</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Materialize</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+          <li class="skills__list-item btn btn--plain">Building and calling APIs</li>
+          <li class="skills__list-item btn btn--plain">Grid and Flexbox</li>
+         
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:jasonkk.parker@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a>
+       Design By Raj Shekhar | Code by Jason Parker, 2022
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
